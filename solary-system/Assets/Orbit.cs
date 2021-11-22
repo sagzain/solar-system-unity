@@ -16,6 +16,7 @@ public class Orbit : MonoBehaviour
     }
     void Update()
     {
+        transform.parent = _target;
         transform.RotateAround(_target.position, transform.up, _orbitSpeed * Time.deltaTime);
     }
 }
