@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Rotation : MonoBehaviour
 {
+    [SerializeField] private float _rotationAxis;
     [SerializeField] private float _rotationSpeed;
 
     void Update()
