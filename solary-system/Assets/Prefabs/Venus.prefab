@@ -9,11 +9,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3781225098826742682, guid: 2d7ba9176417ba146ab894963eb5a778, type: 3}
       propertyPath: m_Name
-      value: Planet
+      value: Venus
       objectReference: {fileID: 0}
     - target: {fileID: 5835896070820186182, guid: 2d7ba9176417ba146ab894963eb5a778, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835896070820186182, guid: 2d7ba9176417ba146ab894963eb5a778, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835896070820186182, guid: 2d7ba9176417ba146ab894963eb5a778, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835896070820186182, guid: 2d7ba9176417ba146ab894963eb5a778, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.75
       objectReference: {fileID: 0}
     - target: {fileID: 5835896070820186182, guid: 2d7ba9176417ba146ab894963eb5a778, type: 3}
       propertyPath: m_LocalPosition.x

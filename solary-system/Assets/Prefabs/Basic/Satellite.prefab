@@ -1,20 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &2414607741865508322
+--- !u!114 &-3319576519215343944
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3781225098826742682}
+  m_GameObject: {fileID: 1355058230804324779}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 185435521747a014fbf26639ea0f3c1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 0}
-  _orbitSpeed: 10
---- !u!1001 &6567526210409933910
+  _orbitSpeed: 5
+--- !u!1001 &9048633471422527079
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -65,14 +65,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 919388795198168784, guid: d0285503a583ea04a9479ca36d953c5a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 21467d403d1600b4ebb404b990533385, type: 2}
     - target: {fileID: 8024594829786142668, guid: d0285503a583ea04a9479ca36d953c5a, type: 3}
       propertyPath: m_Name
-      value: Planet
+      value: Satellite
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0285503a583ea04a9479ca36d953c5a, type: 3}
---- !u!1 &3781225098826742682 stripped
+--- !u!1 &1355058230804324779 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8024594829786142668, guid: d0285503a583ea04a9479ca36d953c5a, type: 3}
-  m_PrefabInstance: {fileID: 6567526210409933910}
+  m_PrefabInstance: {fileID: 9048633471422527079}
   m_PrefabAsset: {fileID: 0}
