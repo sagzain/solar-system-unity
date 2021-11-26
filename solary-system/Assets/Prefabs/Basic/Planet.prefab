@@ -65,6 +65,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6707568451350003542, guid: d0285503a583ea04a9479ca36d953c5a, type: 3}
+      propertyPath: m_Emitting
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707568451350003542, guid: d0285503a583ea04a9479ca36d953c5a, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707568451350003542, guid: d0285503a583ea04a9479ca36d953c5a, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707568451350003542, guid: d0285503a583ea04a9479ca36d953c5a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707568451350003542, guid: d0285503a583ea04a9479ca36d953c5a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 8024594829786142668, guid: d0285503a583ea04a9479ca36d953c5a, type: 3}
       propertyPath: m_Name
       value: Planet
