@@ -152,16 +152,16 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 6
+  m_Time: 5.9
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 1
+    widthMultiplier: 0.5
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 0.042857796
+        time: 0.049999237
+        value: 0.05
         inSlope: 0
         outSlope: 0
         tangentMode: 0

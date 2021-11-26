@@ -531,7 +531,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 963194227}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 200
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -841,6 +841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Uranus
       objectReference: {fileID: 0}
+    - target: {fileID: 4125988179316390248, guid: 54b849a6000d61948955063bd52984dc, type: 3}
+      propertyPath: _orbitSpeed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 5205413637648665804, guid: 54b849a6000d61948955063bd52984dc, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -909,6 +913,10 @@ PrefabInstance:
     - target: {fileID: 3360543055999125640, guid: 998493c814677b74da054756ec97a9ad, type: 3}
       propertyPath: m_Name
       value: Venus
+      objectReference: {fileID: 0}
+    - target: {fileID: 4276441461302300400, guid: 998493c814677b74da054756ec97a9ad, type: 3}
+      propertyPath: _orbitSpeed
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5343473288992914260, guid: 998493c814677b74da054756ec97a9ad, type: 3}
       propertyPath: m_RootOrder
@@ -1007,6 +1015,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7807996973242979509, guid: 28edc6fb0bbff8a4a9a9a055b5d1350a, type: 3}
+      propertyPath: _orbitSpeed
+      value: 52
+      objectReference: {fileID: 0}
     - target: {fileID: 8764118278507320013, guid: 28edc6fb0bbff8a4a9a9a055b5d1350a, type: 3}
       propertyPath: m_Name
       value: Mars
@@ -1068,6 +1080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Earth
       objectReference: {fileID: 0}
+    - target: {fileID: 8233392883362889511, guid: e491999f72fdac7448d122297d19fee5, type: 3}
+      propertyPath: _orbitSpeed
+      value: 55
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e491999f72fdac7448d122297d19fee5, type: 3}
 --- !u!1001 &5793327338392632097
@@ -1077,6 +1093,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3162199148502947569, guid: 9e300ae2d76c1d149bcfa1172d00f287, type: 3}
+      propertyPath: _orbitSpeed
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 4474774401595297929, guid: 9e300ae2d76c1d149bcfa1172d00f287, type: 3}
       propertyPath: m_Name
       value: Saturn
@@ -1146,6 +1166,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 392847113788604046, guid: 56745a500fb79b94182ce038ab93b946, type: 3}
+      propertyPath: _orbitSpeed
+      value: 45
+      objectReference: {fileID: 0}
     - target: {fileID: 1191299534500591862, guid: 56745a500fb79b94182ce038ab93b946, type: 3}
       propertyPath: m_Name
       value: Jupiter
@@ -1263,9 +1287,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5561112564892573461, guid: 576434d6ec872fa4f82910622c7d37e0, type: 3}
+      propertyPath: _orbitSpeed
+      value: 70
+      objectReference: {fileID: 0}
     - target: {fileID: 6401583929957341549, guid: 576434d6ec872fa4f82910622c7d37e0, type: 3}
       propertyPath: m_Name
       value: Mercury
+      objectReference: {fileID: 0}
+    - target: {fileID: 7682570482955547127, guid: 576434d6ec872fa4f82910622c7d37e0, type: 3}
+      propertyPath: m_Time
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 576434d6ec872fa4f82910622c7d37e0, type: 3}
@@ -1276,6 +1308,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1015055666218843223, guid: 9e513dee518c09249a4735e230cb05ae, type: 3}
+      propertyPath: _orbitSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2012483424852277807, guid: 9e513dee518c09249a4735e230cb05ae, type: 3}
       propertyPath: m_Name
       value: Neptune
